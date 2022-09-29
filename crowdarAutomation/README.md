@@ -5,4 +5,7 @@ Para utilizar el presente proyecto tienen que tener instalado el jdk de java y l
 
 Recomendado utilizar el ide de Eclipse
 
-Instalar maven, testng, selenium en las dependencias del proyecto.
+Instalar maven, testng, selenium en las dependencias del proyecto que son las usadas para la ejecución de los test case.
+
+El reporte de las ejecuciones de las pruebas se guardan automáticamente en el path en formato html
+c://User/nombre_usuario/eclipse-workspace/ChallengeCrowdar/test-output/emailable-report.html
