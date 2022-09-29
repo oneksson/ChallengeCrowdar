@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteCrowdarSwagLabs on Chrome]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://www.saucedemo.com/"/>
+  <test thread-count="5" name="Test_login_Chrome(failed)">
+    <parameter name="BrowserType" value="Chrome"/>
+    <classes>
+      <class name="com.record.crowdar.TestLogin">
+        <methods>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.record.crowdar.TestLogin -->
+    </classes>
+  </test> <!-- Test_login_Chrome(failed) -->
+  <test thread-count="5" name="Test_logout_Chrome(failed)">
+    <parameter name="BrowserType" value="Chrome"/>
+    <classes>
+      <class name="com.record.crowdar.TestLogout">
+        <methods>
+          <include name="logout"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.record.crowdar.TestLogout -->
+    </classes>
+  </test> <!-- Test_logout_Chrome(failed) -->
+  <test thread-count="5" name="Test_login_failed_Chrome(failed)">
+    <parameter name="BrowserType" value="Chrome"/>
+    <classes>
+      <class name="com.record.crowdar.TestLoginFailed">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.record.crowdar.TestLoginFailed -->
+    </classes>
+  </test> <!-- Test_login_failed_Chrome(failed) -->
+  <test thread-count="5" name="Test_comprar_item_Chrome(failed)">
+    <parameter name="BrowserType" value="Chrome"/>
+    <classes>
+      <class name="com.record.crowdar.TestComprar">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="comprar"/>
+        </methods>
+      </class> <!-- com.record.crowdar.TestComprar -->
+    </classes>
+  </test> <!-- Test_comprar_item_Chrome(failed) -->
+  <test thread-count="5" name="Test_login_Firefox(failed)">
+    <parameter name="BrowserType" value="Firefox"/>
+    <classes>
+      <class name="com.record.crowdar.TestLogin">
+        <methods>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.record.crowdar.TestLogin -->
+    </classes>
+  </test> <!-- Test_login_Firefox(failed) -->
+  <test thread-count="5" name="Test_logout_Firefox(failed)">
+    <parameter name="BrowserType" value="Firefox"/>
+    <classes>
+      <class name="com.record.crowdar.TestLogout">
+        <methods>
+          <include name="logout"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.record.crowdar.TestLogout -->
+    </classes>
+  </test> <!-- Test_logout_Firefox(failed) -->
+  <test thread-count="5" name="Test_login_failed_Firefox(failed)">
+    <parameter name="BrowserType" value="Firefox"/>
+    <classes>
+      <class name="com.record.crowdar.TestLoginFailed">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.record.crowdar.TestLoginFailed -->
+    </classes>
+  </test> <!-- Test_login_failed_Firefox(failed) -->
+  <test thread-count="5" name="Test_comprar_item_Firefox(failed)">
+    <parameter name="BrowserType" value="Firefox"/>
+    <classes>
+      <class name="com.record.crowdar.TestComprar">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="comprar"/>
+        </methods>
+      </class> <!-- com.record.crowdar.TestComprar -->
+    </classes>
+  </test> <!-- Test_comprar_item_Firefox(failed) -->
+</suite> <!-- Failed suite [SuiteCrowdarSwagLabs on Chrome] -->
