@@ -13,3 +13,6 @@ Instalar maven, testng, selenium en las dependencias del proyecto que son las us
 ## Reporte
 El reporte de las ejecuciones de las pruebas se guardan automáticamente en el path en formato html
 c://User/nombre_usuario/eclipse-workspace/ChallengeCrowdar/test-output/emailable-report.html
+
+## Test cases
+Se adjunta en formato excel
